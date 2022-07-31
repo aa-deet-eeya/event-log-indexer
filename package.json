@@ -1,0 +1,29 @@
+{
+  "name": "event-log-indexer",
+  "version": "1.0.0",
+  "description": "Scripts to store event data in the DB",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aa-deet-eeya/event-log-indexer.git"
+  },
+  "author": "aa-deet-eeya",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aa-deet-eeya/event-log-indexer/issues"
+  },
+  "homepage": "https://github.com/aa-deet-eeya/event-log-indexer#readme",
+  "devDependencies": {
+    "ts-node": "^10.9.1",
+    "tsc": "^2.0.4",
+    "typescript": "4.6.4"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "mongoose": "^6.5.0",
+    "web3": "^1.7.4"
+  }
+}
